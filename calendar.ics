@@ -1,0 +1,211 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ai-model-deprecations//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:AI model deprecations
+X-WR-CALDESC:Shutdown\, reroute and price-change dates for AI model APIs
+BEGIN:VEVENT
+UID:df2966c19e9eb97f@ai-model-deprecations
+DTSTAMP:20261108T000000Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:Google: 5 model changes
+DESCRIPTION:gemini-2.5-flash-native-audio-preview-12-2025 (shutdown) -> gem
+ ini-3.8-live. Google lists the earliest possible shutdown date.\ngemini-2.
+ 5-flash-preview-tts (shutdown) -> gemini-3.8-flash-tts or gemini-3.8-flash
+ -lite-tts. Google lists the earliest possible shutdown date.\ngemini-2.5-p
+ ro-preview-tts (shutdown) -> gemini-3.8-flash-tts or gemini-3.8-flash-lite
+ -tts. Google lists the earliest possible shutdown date.\ngemini-3.1-flash-
+ live-preview (shutdown) -> gemini-3.8-live. Google lists the earliest poss
+ ible shutdown date.\ngemini-3.1-flash-tts-preview (shutdown) -> gemini-3.8
+ -flash-tts or gemini-3.8-flash-lite-tts. Google lists the earliest possibl
+ e shutdown date.\nSources: https://aistudio.google.com/docs/deprecations
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:9dc37669b6523b7e@ai-model-deprecations
+DTSTAMP:20261108T000000Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Anthropic: 2 model changes
+DESCRIPTION:claude-opus-4-8 (feature) -> claude-opus-5-5. Fast mode removed
+ : requests with speed "fast" return an error.\nclaude-sonnet-4-5-20250929 
+ (shutdown) -> claude-sonnet-5-5. Retirement on the Claude API.\nSources: h
+ ttps://platform.claude.com/docs/en/about-claude/model-deprecations https:/
+ /platform.claude.com/docs/en/release-notes/overview
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:07c9b970e33e155b@ai-model-deprecations
+DTSTAMP:20261108T000000Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:OpenAI: 4 model changes
+DESCRIPTION:Agent Builder (shutdown) -> Agents SDK or ChatGPT Workspace Age
+ nts\nEvals dashboard and API (shutdown) -> Promptfoo\ngpt-5.6-sol (price).
+  Promotional pricing ($4 input / $20 output per 1M tokens) ends\; the late
+ r price is not published on the model page.\nv1/prompts (shutdown) -> Prom
+ pt content in your own code. The v1/prompts API and reusable prompt object
+ s shut down.\nSources: https://developers.openai.com/api/docs/deprecations
+  https://developers.openai.com/api/docs/models/gpt-5.6-sol
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:8a3908fc02bc8c32@ai-model-deprecations
+DTSTAMP:20261108T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:Google: 3 model changes
+DESCRIPTION:gemini-2.5-flash (reroute) -> gemini-3.5-flash-lite. Requests k
+ eep working but are answered by and billed as gemini-3.5-flash-lite.\ngemi
+ ni-2.5-pro (reroute) -> gemini-3.8-flash. Requests keep working but are an
+ swered by and billed as gemini-3.8-flash.\ngemini-4-argon (price). $2 / $1
+ 0 per 1M input / output tokens becomes $4 / $20\; cached input $0.10 becom
+ es $0.20.\nSources: https://aistudio.google.com/docs/deprecations https://
+ aistudio.google.com/docs/pricing
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:9950d4082b9e4fd8@ai-model-deprecations
+DTSTAMP:20261108T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:OpenAI: 3 model changes
+DESCRIPTION:chatgpt-image-latest (shutdown) -> gpt-image-2.6-sunburst or gp
+ t-image-2.6-flare\ngpt-image-1-mini (shutdown) -> gpt-image-2.6-sunburst o
+ r gpt-image-2.6-flare\ngpt-image-1.5 (shutdown) -> gpt-image-2.6-sunburst 
+ or gpt-image-2.6-flare\nSources: https://developers.openai.com/api/docs/de
+ precations
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f324f71d7f8d0ce2@ai-model-deprecations
+DTSTAMP:20261108T000000Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:OpenAI: 6 model changes
+DESCRIPTION:gpt-5 (shutdown) -> gpt-5.6-sol. Fine-tuned versions follow the
+  base model.\ngpt-5-mini (shutdown) -> gpt-5.6-terra. Fine-tuned versions 
+ follow the base model.\ngpt-5-nano (shutdown) -> gpt-5.6-luna. Fine-tuned 
+ versions follow the base model.\ngpt-5-pro (shutdown) -> gpt-5.6-sol (reas
+ oning.mode: pro). Fine-tuned versions follow the base model.\no3 (shutdown
+ ) -> gpt-5.6-sol. Fine-tuned versions follow the base model.\no3-pro (shut
+ down) -> gpt-5.6-sol (reasoning.mode: pro). Fine-tuned versions follow the
+  base model.\nSources: https://developers.openai.com/api/docs/deprecations
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:50785a83dec2e671@ai-model-deprecations
+DTSTAMP:20261108T000000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:Google: 2 model changes
+DESCRIPTION:gemini-3.6-flash (price). $0.75 / $3.75 per 1M input / output t
+ okens becomes $1.50 / $7.50\; cached input $0.075 becomes $0.15.\ngemini-3
+ .8-flash (price). $0.75 / $3.75 per 1M input / output tokens becomes $1.50
+  / $7.50\; cached input $0.075 becomes $0.15.\nSources: https://aistudio.g
+ oogle.com/docs/pricing
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:6031e3a6477e8936@ai-model-deprecations
+DTSTAMP:20261108T000000Z
+DTSTART;VALUE=DATE:20270106
+DTEND;VALUE=DATE:20270107
+SUMMARY:OpenAI: 4 model changes
+DESCRIPTION:Fine-tuning jobs (feature). Active existing customers can no lo
+ nger create new fine-tuning jobs. Inference on fine-tuned models continues
+  until the base model is deprecated.\ngpt-4o-mini-tts (shutdown) -> gpt-re
+ altime-2.1-mini\ntts-1 (shutdown) -> gpt-realtime-2.1-mini\ntts-1-hd (shut
+ down) -> gpt-realtime-2.1-mini\nSources: https://developers.openai.com/api
+ /docs/deprecations
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:921b6c50059c6b24@ai-model-deprecations
+DTSTAMP:20261108T000000Z
+DTSTART;VALUE=DATE:20270114
+DTEND;VALUE=DATE:20270115
+SUMMARY:OpenAI: 5 model changes
+DESCRIPTION:gpt-4.1-2025-04-14 (shutdown) -> gpt-6-luna\ngpt-4.1-mini-2025-
+ 04-14 (shutdown) -> gpt-6-luna\ngpt-4o-2024-08-06 (shutdown) -> gpt-6-luna
+ \ngpt-4o-2024-11-20 (shutdown) -> gpt-6-luna\ngpt-4o-mini-2024-07-18 (shut
+ down) -> gpt-6-luna\nSources: https://developers.openai.com/api/docs/depre
+ cations
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e28a36ed1bf9556e@ai-model-deprecations
+DTSTAMP:20261108T000000Z
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+SUMMARY:OpenAI: 9 model changes
+DESCRIPTION:gpt-4o-audio (shutdown) -> gpt-audio-1.5\ngpt-4o-mini-audio (sh
+ utdown) -> gpt-audio-1.5\ngpt-4o-mini-realtime (shutdown) -> gpt-realtime-
+ 2.1-mini\ngpt-4o-mini-transcribe-2025-03-20 (shutdown) -> gpt-4o-mini-tran
+ scribe-2025-12-15\ngpt-4o-realtime (shutdown) -> gpt-realtime-2.1\ngpt-aud
+ io (shutdown) -> gpt-audio-1.5\ngpt-audio-mini (shutdown) -> gpt-audio-1.5
+ \ngpt-realtime (shutdown) -> gpt-realtime-2.1\ngpt-realtime-mini (shutdown
+ ) -> gpt-realtime-2.1-mini\nSources: https://developers.openai.com/api/doc
+ s/deprecations
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e343b1db50ae429a@ai-model-deprecations
+DTSTAMP:20261108T000000Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:OpenAI: gpt-5.5-cyber-preview shuts down
+DESCRIPTION:gpt-5.5-cyber-preview (shutdown) -> The most capable cyber mode
+ l available to you\nSources: https://developers.openai.com/api/docs/deprec
+ ations
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:7f78bb353ec35fa9@ai-model-deprecations
+DTSTAMP:20261108T000000Z
+DTSTART;VALUE=DATE:20270226
+DTEND;VALUE=DATE:20270227
+SUMMARY:OpenAI: 5 model changes
+DESCRIPTION:/v1/audio/translations (shutdown) -> v1/realtime/translations\n
+ gpt-4o-mini-transcribe (shutdown) -> gpt-live-transcribe or gpt-transcribe
+ \ngpt-4o-transcribe (shutdown) -> gpt-live-transcribe or gpt-transcribe\ng
+ pt-4o-transcribe-diarize (shutdown) -> gpt-live-transcribe or gpt-transcri
+ be\nwhisper-1 (shutdown) -> gpt-live-transcribe or gpt-transcribe\nSources
+ : https://developers.openai.com/api/docs/deprecations
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f5be7f00fcc74f28@ai-model-deprecations
+DTSTAMP:20261108T000000Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:Google: gemini-2.5-flash-image shuts down
+DESCRIPTION:gemini-2.5-flash-image (shutdown) -> gemini-3.1-flash-lite-imag
+ e. Google lists the earliest possible shutdown date.\nSources: https://ais
+ tudio.google.com/docs/deprecations
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:7d9337aea3e73065@ai-model-deprecations
+DTSTAMP:20261108T000000Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+SUMMARY:OpenAI: 3 model changes
+DESCRIPTION:gpt-5.1 (shutdown) -> gpt-6-sol\ngpt-5.3-codex (shutdown) -> gp
+ t-6-sol\ngpt-5.4-nano (shutdown) -> gpt-6-luna\nSources: https://developer
+ s.openai.com/api/docs/deprecations
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c10e9c1537c82f2b@ai-model-deprecations
+DTSTAMP:20261108T000000Z
+DTSTART;VALUE=DATE:20270507
+DTEND;VALUE=DATE:20270508
+SUMMARY:Google: gemini-3.1-flash-lite shuts down
+DESCRIPTION:gemini-3.1-flash-lite (shutdown) -> gemini-3.5-flash-lite. Goog
+ le lists the earliest possible shutdown date.\nSources: https://aistudio.g
+ oogle.com/docs/deprecations
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

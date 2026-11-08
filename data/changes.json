@@ -1,0 +1,615 @@
+{
+  "checked": "2026-11-08",
+  "changes": [
+    {
+      "date": "2026-11-17",
+      "provider": "Google",
+      "type": "shutdown",
+      "models": [
+        "gemini-3.1-flash-tts-preview"
+      ],
+      "replacement": "gemini-3.8-flash-tts or gemini-3.8-flash-lite-tts",
+      "note": "Google lists the earliest possible shutdown date.",
+      "source": "https://aistudio.google.com/docs/deprecations"
+    },
+    {
+      "date": "2026-11-17",
+      "provider": "Google",
+      "type": "shutdown",
+      "models": [
+        "gemini-2.5-flash-preview-tts"
+      ],
+      "replacement": "gemini-3.8-flash-tts or gemini-3.8-flash-lite-tts",
+      "note": "Google lists the earliest possible shutdown date.",
+      "source": "https://aistudio.google.com/docs/deprecations"
+    },
+    {
+      "date": "2026-11-17",
+      "provider": "Google",
+      "type": "shutdown",
+      "models": [
+        "gemini-2.5-pro-preview-tts"
+      ],
+      "replacement": "gemini-3.8-flash-tts or gemini-3.8-flash-lite-tts",
+      "note": "Google lists the earliest possible shutdown date.",
+      "source": "https://aistudio.google.com/docs/deprecations"
+    },
+    {
+      "date": "2026-11-17",
+      "provider": "Google",
+      "type": "shutdown",
+      "models": [
+        "gemini-3.1-flash-live-preview"
+      ],
+      "replacement": "gemini-3.8-live",
+      "note": "Google lists the earliest possible shutdown date.",
+      "source": "https://aistudio.google.com/docs/deprecations"
+    },
+    {
+      "date": "2026-11-17",
+      "provider": "Google",
+      "type": "shutdown",
+      "models": [
+        "gemini-2.5-flash-native-audio-preview-12-2025"
+      ],
+      "replacement": "gemini-3.8-live",
+      "note": "Google lists the earliest possible shutdown date.",
+      "source": "https://aistudio.google.com/docs/deprecations"
+    },
+    {
+      "date": "2026-11-30",
+      "provider": "Anthropic",
+      "type": "shutdown",
+      "models": [
+        "claude-sonnet-4-5-20250929"
+      ],
+      "replacement": "claude-sonnet-5-5",
+      "note": "Retirement on the Claude API.",
+      "source": "https://platform.claude.com/docs/en/about-claude/model-deprecations"
+    },
+    {
+      "date": "2026-11-30",
+      "provider": "Anthropic",
+      "type": "feature",
+      "models": [
+        "claude-opus-4-8"
+      ],
+      "replacement": "claude-opus-5-5",
+      "note": "Fast mode removed: requests with speed \"fast\" return an error.",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview"
+    },
+    {
+      "date": "2026-11-30",
+      "provider": "OpenAI",
+      "type": "shutdown",
+      "models": [
+        "v1/prompts"
+      ],
+      "replacement": "Prompt content in your own code",
+      "note": "The v1/prompts API and reusable prompt objects shut down.",
+      "source": "https://developers.openai.com/api/docs/deprecations"
+    },
+    {
+      "date": "2026-11-30",
+      "provider": "OpenAI",
+      "type": "shutdown",
+      "models": [
+        "Evals dashboard and API"
+      ],
+      "replacement": "Promptfoo",
+      "note": "",
+      "source": "https://developers.openai.com/api/docs/deprecations"
+    },
+    {
+      "date": "2026-11-30",
+      "provider": "OpenAI",
+      "type": "shutdown",
+      "models": [
+        "Agent Builder"
+      ],
+      "replacement": "Agents SDK or ChatGPT Workspace Agents",
+      "note": "",
+      "source": "https://developers.openai.com/api/docs/deprecations"
+    },
+    {
+      "date": "2026-11-30",
+      "provider": "OpenAI",
+      "type": "price",
+      "models": [
+        "gpt-5.6-sol"
+      ],
+      "replacement": "",
+      "note": "Promotional pricing ($4 input / $20 output per 1M tokens) ends; the later price is not published on the model page.",
+      "source": "https://developers.openai.com/api/docs/models/gpt-5.6-sol"
+    },
+    {
+      "date": "2026-12-01",
+      "provider": "OpenAI",
+      "type": "shutdown",
+      "models": [
+        "gpt-image-1-mini"
+      ],
+      "replacement": "gpt-image-2.6-sunburst or gpt-image-2.6-flare",
+      "note": "",
+      "source": "https://developers.openai.com/api/docs/deprecations"
+    },
+    {
+      "date": "2026-12-01",
+      "provider": "OpenAI",
+      "type": "shutdown",
+      "models": [
+        "gpt-image-1.5",
+        "gpt-image-1.5-2025-12-16"
+      ],
+      "replacement": "gpt-image-2.6-sunburst or gpt-image-2.6-flare",
+      "note": "",
+      "source": "https://developers.openai.com/api/docs/deprecations"
+    },
+    {
+      "date": "2026-12-01",
+      "provider": "OpenAI",
+      "type": "shutdown",
+      "models": [
+        "chatgpt-image-latest"
+      ],
+      "replacement": "gpt-image-2.6-sunburst or gpt-image-2.6-flare",
+      "note": "",
+      "source": "https://developers.openai.com/api/docs/deprecations"
+    },
+    {
+      "date": "2026-12-01",
+      "provider": "Google",
+      "type": "reroute",
+      "models": [
+        "gemini-2.5-pro"
+      ],
+      "replacement": "gemini-3.8-flash",
+      "note": "Requests keep working but are answered by and billed as gemini-3.8-flash.",
+      "source": "https://aistudio.google.com/docs/deprecations"
+    },
+    {
+      "date": "2026-12-01",
+      "provider": "Google",
+      "type": "reroute",
+      "models": [
+        "gemini-2.5-flash"
+      ],
+      "replacement": "gemini-3.5-flash-lite",
+      "note": "Requests keep working but are answered by and billed as gemini-3.5-flash-lite.",
+      "source": "https://aistudio.google.com/docs/deprecations"
+    },
+    {
+      "date": "2026-12-01",
+      "provider": "Google",
+      "type": "price",
+      "models": [
+        "gemini-4-argon"
+      ],
+      "replacement": "",
+      "note": "$2 / $10 per 1M input / output tokens becomes $4 / $20; cached input $0.10 becomes $0.20.",
+      "source": "https://aistudio.google.com/docs/pricing"
+    },
+    {
+      "date": "2026-12-11",
+      "provider": "OpenAI",
+      "type": "shutdown",
+      "models": [
+        "gpt-5",
+        "gpt-5-2025-08-07"
+      ],
+      "replacement": "gpt-5.6-sol",
+      "note": "Fine-tuned versions follow the base model.",
+      "source": "https://developers.openai.com/api/docs/deprecations"
+    },
+    {
+      "date": "2026-12-11",
+      "provider": "OpenAI",
+      "type": "shutdown",
+      "models": [
+        "gpt-5-mini",
+        "gpt-5-mini-2025-08-07"
+      ],
+      "replacement": "gpt-5.6-terra",
+      "note": "Fine-tuned versions follow the base model.",
+      "source": "https://developers.openai.com/api/docs/deprecations"
+    },
+    {
+      "date": "2026-12-11",
+      "provider": "OpenAI",
+      "type": "shutdown",
+      "models": [
+        "gpt-5-nano",
+        "gpt-5-nano-2025-08-07"
+      ],
+      "replacement": "gpt-5.6-luna",
+      "note": "Fine-tuned versions follow the base model.",
+      "source": "https://developers.openai.com/api/docs/deprecations"
+    },
+    {
+      "date": "2026-12-11",
+      "provider": "OpenAI",
+      "type": "shutdown",
+      "models": [
+        "gpt-5-pro",
+        "gpt-5-pro-2025-10-06"
+      ],
+      "replacement": "gpt-5.6-sol (reasoning.mode: pro)",
+      "note": "Fine-tuned versions follow the base model.",
+      "source": "https://developers.openai.com/api/docs/deprecations"
+    },
+    {
+      "date": "2026-12-11",
+      "provider": "OpenAI",
+      "type": "shutdown",
+      "models": [
+        "o3",
+        "o3-2025-04-16"
+      ],
+      "replacement": "gpt-5.6-sol",
+      "note": "Fine-tuned versions follow the base model.",
+      "source": "https://developers.openai.com/api/docs/deprecations"
+    },
+    {
+      "date": "2026-12-11",
+      "provider": "OpenAI",
+      "type": "shutdown",
+      "models": [
+        "o3-pro",
+        "o3-pro-2025-06-10"
+      ],
+      "replacement": "gpt-5.6-sol (reasoning.mode: pro)",
+      "note": "Fine-tuned versions follow the base model.",
+      "source": "https://developers.openai.com/api/docs/deprecations"
+    },
+    {
+      "date": "2027-01-01",
+      "provider": "Google",
+      "type": "price",
+      "models": [
+        "gemini-3.8-flash"
+      ],
+      "replacement": "",
+      "note": "$0.75 / $3.75 per 1M input / output tokens becomes $1.50 / $7.50; cached input $0.075 becomes $0.15.",
+      "source": "https://aistudio.google.com/docs/pricing"
+    },
+    {
+      "date": "2027-01-01",
+      "provider": "Google",
+      "type": "price",
+      "models": [
+        "gemini-3.6-flash"
+      ],
+      "replacement": "",
+      "note": "$0.75 / $3.75 per 1M input / output tokens becomes $1.50 / $7.50; cached input $0.075 becomes $0.15.",
+      "source": "https://aistudio.google.com/docs/pricing"
+    },
+    {
+      "date": "2027-01-06",
+      "provider": "OpenAI",
+      "type": "shutdown",
+      "models": [
+        "tts-1"
+      ],
+      "replacement": "gpt-realtime-2.1-mini",
+      "note": "",
+      "source": "https://developers.openai.com/api/docs/deprecations"
+    },
+    {
+      "date": "2027-01-06",
+      "provider": "OpenAI",
+      "type": "shutdown",
+      "models": [
+        "tts-1-hd"
+      ],
+      "replacement": "gpt-realtime-2.1-mini",
+      "note": "",
+      "source": "https://developers.openai.com/api/docs/deprecations"
+    },
+    {
+      "date": "2027-01-06",
+      "provider": "OpenAI",
+      "type": "shutdown",
+      "models": [
+        "gpt-4o-mini-tts",
+        "gpt-4o-mini-tts-2025-03-20",
+        "gpt-4o-mini-tts-2025-12-15"
+      ],
+      "replacement": "gpt-realtime-2.1-mini",
+      "note": "",
+      "source": "https://developers.openai.com/api/docs/deprecations"
+    },
+    {
+      "date": "2027-01-06",
+      "provider": "OpenAI",
+      "type": "feature",
+      "models": [
+        "Fine-tuning jobs"
+      ],
+      "replacement": "",
+      "note": "Active existing customers can no longer create new fine-tuning jobs. Inference on fine-tuned models continues until the base model is deprecated.",
+      "source": "https://developers.openai.com/api/docs/deprecations"
+    },
+    {
+      "date": "2027-01-14",
+      "provider": "OpenAI",
+      "type": "shutdown",
+      "models": [
+        "gpt-4o-2024-08-06"
+      ],
+      "replacement": "gpt-6-luna",
+      "note": "",
+      "source": "https://developers.openai.com/api/docs/deprecations"
+    },
+    {
+      "date": "2027-01-14",
+      "provider": "OpenAI",
+      "type": "shutdown",
+      "models": [
+        "gpt-4o-2024-11-20"
+      ],
+      "replacement": "gpt-6-luna",
+      "note": "",
+      "source": "https://developers.openai.com/api/docs/deprecations"
+    },
+    {
+      "date": "2027-01-14",
+      "provider": "OpenAI",
+      "type": "shutdown",
+      "models": [
+        "gpt-4o-mini-2024-07-18"
+      ],
+      "replacement": "gpt-6-luna",
+      "note": "",
+      "source": "https://developers.openai.com/api/docs/deprecations"
+    },
+    {
+      "date": "2027-01-14",
+      "provider": "OpenAI",
+      "type": "shutdown",
+      "models": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "replacement": "gpt-6-luna",
+      "note": "",
+      "source": "https://developers.openai.com/api/docs/deprecations"
+    },
+    {
+      "date": "2027-01-14",
+      "provider": "OpenAI",
+      "type": "shutdown",
+      "models": [
+        "gpt-4.1-mini-2025-04-14"
+      ],
+      "replacement": "gpt-6-luna",
+      "note": "",
+      "source": "https://developers.openai.com/api/docs/deprecations"
+    },
+    {
+      "date": "2027-01-20",
+      "provider": "OpenAI",
+      "type": "shutdown",
+      "models": [
+        "gpt-realtime",
+        "gpt-realtime-2025-08-28"
+      ],
+      "replacement": "gpt-realtime-2.1",
+      "note": "",
+      "source": "https://developers.openai.com/api/docs/deprecations"
+    },
+    {
+      "date": "2027-01-20",
+      "provider": "OpenAI",
+      "type": "shutdown",
+      "models": [
+        "gpt-audio",
+        "gpt-audio-2025-08-28"
+      ],
+      "replacement": "gpt-audio-1.5",
+      "note": "",
+      "source": "https://developers.openai.com/api/docs/deprecations"
+    },
+    {
+      "date": "2027-01-20",
+      "provider": "OpenAI",
+      "type": "shutdown",
+      "models": [
+        "gpt-4o-audio"
+      ],
+      "replacement": "gpt-audio-1.5",
+      "note": "",
+      "source": "https://developers.openai.com/api/docs/deprecations"
+    },
+    {
+      "date": "2027-01-20",
+      "provider": "OpenAI",
+      "type": "shutdown",
+      "models": [
+        "gpt-4o-realtime"
+      ],
+      "replacement": "gpt-realtime-2.1",
+      "note": "",
+      "source": "https://developers.openai.com/api/docs/deprecations"
+    },
+    {
+      "date": "2027-01-20",
+      "provider": "OpenAI",
+      "type": "shutdown",
+      "models": [
+        "gpt-realtime-mini",
+        "gpt-realtime-mini-2025-12-15"
+      ],
+      "replacement": "gpt-realtime-2.1-mini",
+      "note": "",
+      "source": "https://developers.openai.com/api/docs/deprecations"
+    },
+    {
+      "date": "2027-01-20",
+      "provider": "OpenAI",
+      "type": "shutdown",
+      "models": [
+        "gpt-audio-mini",
+        "gpt-audio-mini-2025-12-15"
+      ],
+      "replacement": "gpt-audio-1.5",
+      "note": "",
+      "source": "https://developers.openai.com/api/docs/deprecations"
+    },
+    {
+      "date": "2027-01-20",
+      "provider": "OpenAI",
+      "type": "shutdown",
+      "models": [
+        "gpt-4o-mini-realtime"
+      ],
+      "replacement": "gpt-realtime-2.1-mini",
+      "note": "",
+      "source": "https://developers.openai.com/api/docs/deprecations"
+    },
+    {
+      "date": "2027-01-20",
+      "provider": "OpenAI",
+      "type": "shutdown",
+      "models": [
+        "gpt-4o-mini-audio"
+      ],
+      "replacement": "gpt-audio-1.5",
+      "note": "",
+      "source": "https://developers.openai.com/api/docs/deprecations"
+    },
+    {
+      "date": "2027-01-20",
+      "provider": "OpenAI",
+      "type": "shutdown",
+      "models": [
+        "gpt-4o-mini-transcribe-2025-03-20"
+      ],
+      "replacement": "gpt-4o-mini-transcribe-2025-12-15",
+      "note": "",
+      "source": "https://developers.openai.com/api/docs/deprecations"
+    },
+    {
+      "date": "2027-02-01",
+      "provider": "OpenAI",
+      "type": "shutdown",
+      "models": [
+        "gpt-5.5-cyber-preview"
+      ],
+      "replacement": "The most capable cyber model available to you",
+      "note": "",
+      "source": "https://developers.openai.com/api/docs/deprecations"
+    },
+    {
+      "date": "2027-02-26",
+      "provider": "OpenAI",
+      "type": "shutdown",
+      "models": [
+        "whisper-1"
+      ],
+      "replacement": "gpt-live-transcribe or gpt-transcribe",
+      "note": "",
+      "source": "https://developers.openai.com/api/docs/deprecations"
+    },
+    {
+      "date": "2027-02-26",
+      "provider": "OpenAI",
+      "type": "shutdown",
+      "models": [
+        "gpt-4o-transcribe"
+      ],
+      "replacement": "gpt-live-transcribe or gpt-transcribe",
+      "note": "",
+      "source": "https://developers.openai.com/api/docs/deprecations"
+    },
+    {
+      "date": "2027-02-26",
+      "provider": "OpenAI",
+      "type": "shutdown",
+      "models": [
+        "gpt-4o-mini-transcribe",
+        "gpt-4o-mini-transcribe-2025-12-15"
+      ],
+      "replacement": "gpt-live-transcribe or gpt-transcribe",
+      "note": "",
+      "source": "https://developers.openai.com/api/docs/deprecations"
+    },
+    {
+      "date": "2027-02-26",
+      "provider": "OpenAI",
+      "type": "shutdown",
+      "models": [
+        "gpt-4o-transcribe-diarize"
+      ],
+      "replacement": "gpt-live-transcribe or gpt-transcribe",
+      "note": "",
+      "source": "https://developers.openai.com/api/docs/deprecations"
+    },
+    {
+      "date": "2027-02-26",
+      "provider": "OpenAI",
+      "type": "shutdown",
+      "models": [
+        "/v1/audio/translations"
+      ],
+      "replacement": "v1/realtime/translations",
+      "note": "",
+      "source": "https://developers.openai.com/api/docs/deprecations"
+    },
+    {
+      "date": "2027-03-15",
+      "provider": "Google",
+      "type": "shutdown",
+      "models": [
+        "gemini-2.5-flash-image"
+      ],
+      "replacement": "gemini-3.1-flash-lite-image",
+      "note": "Google lists the earliest possible shutdown date.",
+      "source": "https://aistudio.google.com/docs/deprecations"
+    },
+    {
+      "date": "2027-04-01",
+      "provider": "OpenAI",
+      "type": "shutdown",
+      "models": [
+        "gpt-5.3-codex"
+      ],
+      "replacement": "gpt-6-sol",
+      "note": "",
+      "source": "https://developers.openai.com/api/docs/deprecations"
+    },
+    {
+      "date": "2027-04-01",
+      "provider": "OpenAI",
+      "type": "shutdown",
+      "models": [
+        "gpt-5.4-nano",
+        "gpt-5.4-nano-2026-03-17"
+      ],
+      "replacement": "gpt-6-luna",
+      "note": "",
+      "source": "https://developers.openai.com/api/docs/deprecations"
+    },
+    {
+      "date": "2027-04-01",
+      "provider": "OpenAI",
+      "type": "shutdown",
+      "models": [
+        "gpt-5.1",
+        "gpt-5.1-2025-11-13"
+      ],
+      "replacement": "gpt-6-sol",
+      "note": "",
+      "source": "https://developers.openai.com/api/docs/deprecations"
+    },
+    {
+      "date": "2027-05-07",
+      "provider": "Google",
+      "type": "shutdown",
+      "models": [
+        "gemini-3.1-flash-lite"
+      ],
+      "replacement": "gemini-3.5-flash-lite",
+      "note": "Google lists the earliest possible shutdown date.",
+      "source": "https://aistudio.google.com/docs/deprecations"
+    }
+  ]
+}
